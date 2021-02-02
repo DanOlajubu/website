@@ -57,29 +57,20 @@ hr {
   margin: 100px auto 100px auto;
   text-align: left;
 }
-
 .design-app {
   width: 25%;
   float: left;
   margin-right: 30px;
-
 }
-
 .mobile-app {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
-
-
-
 .contact-message {
   width: 30%;
   margin: 40px auto 60px;
 }
-
-
-
 .top-container {
   background-color: #d1f5d3;
   position: relative;
@@ -87,15 +78,14 @@ hr {
 }
 
 .middle-container {
+  background-color: #f6f5f5;
   margin: 100px 0;
 }
 
-
 .bottom-container {
   background-color: #d1f5d3;
-  padding: 50px 0 20px;
+  padding: 5% 0 5%;
 }
-
 .Daniel {
   text-decoration: underline;
 }
@@ -104,13 +94,14 @@ hr {
   text-decoration: underline;
 }
 
-/*
-.Kunle {
-  text-decoration: underline;
-} */
-
 .mountain-img {
   color: #EAF6F6;
+}
+.col-link{
+  text-align: center;
+  display: inline;
+  padding: 0 30px 0;
+  line-height: 3;
 }
 
 .LinkedIn-link {
@@ -128,7 +119,6 @@ hr {
   color: #11999E;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .Facebook-link {
@@ -145,15 +135,7 @@ hr {
   color: #11999E;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-
 }
-
-.copyright {
-  color: #11999E;
-  font-size: 0.95rem;
-  padding: 30px 0;
-}
-
 a:hover {
   color: #EAF6F6;
 }
@@ -178,9 +160,12 @@ a:hover {
 .contact-details:hover {
   color: #d1f5d3;
 }
-.footer-col {
-  display: inline;
-  padding: 3% 5%;
+.copyright {
+  background-color: #f6f5f5;
+  color: #11999E;
+  font-size: 0.95rem;
+  padding: 2% 3%;
+  text-align: center;
 }
 
 .contact-details {
